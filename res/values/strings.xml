@@ -4,5 +4,7 @@
     <string name="app_name">StudentManagementSystemProject</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="addstring">add</string>
+    <string name="removestring">remove</string>
+    <string name="modifystring">modify</string>
 </resources>

@@ -3,9 +3,13 @@
     tools:context="com.example.studentmanagementsystemproject.MainActivity" >
 
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/action_settings"/>
+        android:id="@+id/additem"
+        android:title="@string/addstring"/>
+    <item
+        android:id="@+id/removeitem"
+        android:title="@string/removestring"/>
+    <item
+        android:id="@+id/modifyitem"
+        android:title="@string/modifystring"/>
 
 </menu>
