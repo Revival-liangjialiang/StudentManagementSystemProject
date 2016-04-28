@@ -1,9 +1,14 @@
 package com.example.studentmanagementsystemproject;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.studentmanagementsystemproject.activity.AddActivity;
+import com.example.studentmanagementsystemproject.activity.ModifyActivity;
+import com.example.studentmanagementsystemproject.activity.RemoveActivity;
 
 public class MainActivity extends Activity {
 
@@ -28,10 +33,16 @@ public class MainActivity extends Activity {
 		int id = item.getItemId();
 		switch (id) {
 		case R.id.additem:
+			Intent addintent = new Intent(this,AddActivity.class);
+			startActivity(addintent);
 			break;
 		case R.id.removeitem:
+			Intent removeintent = new Intent(this,RemoveActivity.class);
+			startActivity(removeintent);
 			break;
 		case R.id.modifyitem:
+			Intent modifyintent = new Intent(this,ModifyActivity.class);
+			startActivity(modifyintent);
 			break;
 		default:
 			break;

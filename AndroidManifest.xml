@@ -22,6 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.studentmanagementsystemproject.activity.AddActivity"></activity>
+        <activity android:name="com.example.studentmanagementsystemproject.activity.Modify1_Activity"></activity>
+        <activity android:name="com.example.studentmanagementsystemproject.activity.ModifyActivity"></activity>
+        <activity android:name="com.example.studentmanagementsystemproject.activity.RemoveActivity"></activity>
     </application>
 
 </manifest>

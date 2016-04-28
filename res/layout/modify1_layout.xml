@@ -2,13 +2,12 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-
     <TableRow
-        android:id="@+id/tableRow1"
+        android:id="@+id/modifytableRow1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/modifytextView1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/name" 
@@ -16,7 +15,7 @@
             />
 
         <EditText
-            android:id="@+id/nameET"
+            android:id="@+id/modifynameET"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -26,11 +25,11 @@
     </TableRow>
 
     <TableRow
-        android:id="@+id/tableRow2"
+        android:id="@+id/modifytableRow2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/modifytextView2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/sex" 
@@ -38,7 +37,7 @@
             />
 
         <EditText
-            android:id="@+id/sexET"
+            android:id="@+id/modifysexET"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -46,11 +45,11 @@
     </TableRow>
 
     <TableRow
-        android:id="@+id/tableRow3"
+        android:id="@+id/modifytableRow3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/modifytextView3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/birth" 
@@ -58,7 +57,7 @@
             />
 
         <EditText
-            android:id="@+id/birthET"
+            android:id="@+id/modifybirthET"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -66,17 +65,17 @@
     </TableRow>
 
     <TableRow
-        android:id="@+id/tableRow4"
+        android:id="@+id/modifytableRow4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/modifytextView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/mobilephone" />
 
         <EditText
-            android:id="@+id/mobilephoneET"
+            android:id="@+id/modifymobilephoneET"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -84,11 +83,11 @@
     </TableRow>
 
     <TableRow
-        android:id="@+id/tableRow5"
+        android:id="@+id/modifytableRow5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/modifytextView5"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/address" 
@@ -96,17 +95,16 @@
             />
 
         <EditText
-            android:id="@+id/addressET"
+            android:id="@+id/modifyaddressET"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10" />
     </TableRow>
-
-    <Button
-        android:id="@+id/addbutton"
+<Button
+        android:id="@+id/modifybutton"
         android:layout_width="wrap_content"
-        android:text="@string/add" 
+        android:text="Modify" 
         android:layout_height="35dp"
         android:layout_marginTop="27dp"
         android:background="@drawable/button"
@@ -114,5 +112,4 @@
         android:layout_marginRight="5dp"
         android:textSize="13sp"
         />
-
 </TableLayout>
