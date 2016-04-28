@@ -1,9 +1,9 @@
 package com.example.studentmanagementsystemproject.activity;
 
-import com.example.studentmanagementsystemproject.R;
-
 import android.app.Activity;
 import android.os.Bundle;
+
+import com.example.studentmanagementsystemproject.R;
 
 public class ModifyActivity extends Activity {
 @Override
