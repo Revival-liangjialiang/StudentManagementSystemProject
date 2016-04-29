@@ -70,6 +70,9 @@ public class DatabaseControl {
 		return list;
 	}
 	public static void clearList(){
-		
+		list.clear();
+	}
+	public static void removeData(String str){
+		db.delete("ClassTable", "id = ?", new String[] {str});
 	}
 }
