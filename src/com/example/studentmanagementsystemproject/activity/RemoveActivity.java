@@ -11,4 +11,8 @@ public class RemoveActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.remove_layout);
 	}
+	@Override
+	protected void onDestroy() {
+		super.onDestroy();
+	}
 }
