@@ -33,13 +33,13 @@ public class DatabaseControl {
 				null);
 		return cursor;
 	}
-
+        //得到指定数据。
 	public static Cursor getAppointData(String str) {
 		Cursor cursor = db.query("ClassTable", null, "id = ?",
 				new String[] { str }, null, null, null);
 		return cursor;
 	}
-
+	//设置指定数据。
 	public static void setData(ContentValues values, String str) {
 		db.update("ClassTable", values, "id = ?", new String[] { str });
 	}
@@ -69,6 +69,7 @@ public class DatabaseControl {
 		}
 		return list;
 	}
+	//清空List。
 	public static void clearList(){
 		list.clear();
 	}
